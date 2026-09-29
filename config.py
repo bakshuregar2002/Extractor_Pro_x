@@ -22,7 +22,7 @@ CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1004482136942"))
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Puranbhai:puranbhai@@cluster0.azoz6l1.mongodb.net/?appName=Cluster0")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1004485576670"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-"))
 # -----------------------------------------------
 join = '<a href="https://t.me/+G-kE-izF8MwzYzM1">✳️ JOIN BACKUP</a>'
 # -----------------------------------------------
@@ -30,7 +30,7 @@ UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
 UNSPLASH_QUERY = 'Bhai ka Bhai'
 # -----------------------------------------------
-ADMIN_BOT_USERNAME = "@Puran_Bhaibot" #without @
+ADMIN_BOT_USERNAME = "" #without @
 
 THUMB_URL = os.environ.get("THUMB_URL", "")
 
